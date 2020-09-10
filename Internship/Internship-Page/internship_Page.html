@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <title>Internships</title>
+  <style>
+    .header {
+      width: 100vw;
+      height: 20vh;
+      background-color: grey;
+    }
+
+    .header h2 {
+      color: white;
+      /* padding: 5vh 3vw; */
+      padding-top: 5vh;
+      padding-left: 5vw;
+      opacity: 0.5;
+    }
+
+    .header h3 {
+      color: white;
+      padding-left: 5vw;
+      opacity: 0.3;
+    }
+
+    .preferences {
+      border: 1px solid brown;
+    }
+
+    .paginationNumber {
+      border: 1px solid brown;
+      border-radius: 50%;
+      text-decoration: none;
+      padding: 4px 4px;
+    }
+
+    .paginationButton {
+      border: 1px solid brown;
+      width: 55px;
+      height: 45px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h2>Internship</h2>
+    <h3>Home/Profile</h3>
+  </div>
+  <div class="container" style="height: 8vh; margin-top: 1vh; background-color:rgb(18, 5, 138);">
+    <h5 style="color: white; margin-left: 2vw;">INTERNSHIPS</h5>
+    <div
+      style="background-image: linear-gradient(to right,white 95%,purple 5%); height: 2vh;width: 70vw;margin-left: 2vw;">
+    </div>
+  </div>
+
+  <!-- our main container starts here -->
+  <div class="container-fluid" style="margin-top: 2vh;">
+    <div class="row">
+      <!-- left coloumn starts here -->
+      <div class="colo-lg-2 col-md-2 col-sm-10">
+        <h5 style="background-color: rgb(235, 15, 235);text-align: center;font-weight: bold; height: 4vh;">Edit
+          Preference</h5>
+        <div class="preferences col-lg-12 col-sm-12 col-md-12">
+          <div style="display: flex;margin-top: 3px;justify-content: space-around;">
+            <h6 style="font-weight: bold;">Search By</h6>
+            <button style="background-color: blue;padding: 1px 5px;margin-left: 8px;border-radius: 10px;">Reset</button>
+          </div>
+          <div style="margin-top: 10px;">
+            <h6 style="font-weight: bold;">Type Of Opportunity</h6>
+            <form>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Fresher Job</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Full Time Internships</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Virtual Internships</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Brand Ambassador</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Part Time</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Pocket Money</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">BTL/Event</label>
+              </div>
+            </form>
+            <hr>
+            <h4 style="text-align: center;">Location</h4>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Search Location">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Chennai</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Hyderabad</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">New Delhi</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Mumbai</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Delhi</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Kolkata</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Banglore</label>
+              </div>
+            </form>
+            <hr>
+            <h4 style="text-align: center;">Location</h4>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Search Location">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Chennai</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Hyderabad</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">New Delhi</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Mumbai</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Delhi</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Kolkata</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Banglore</label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- middle coloumn starts here -->
+      <div class="col-lg-7 col-sm-11 col-md-8">
+        <div style="background-color: rgb(235, 15, 235);">
+          <h3>All Internships</h3>
+        </div>
+        <!-- division for the internship details starts here -->
+        <div style="border: 1px solid brown;">
+          <div style="display: flex;">
+            <div>
+              <input type="checkbox" style="width:30px;height: 30px;margin-top: 10px;">
+            </div>
+            <div style="margin-left: 10px;">
+              <p><span style="font-weight: bold;">Business Development Manager Intern</span> <br> Top Mentor <br> <span
+                  style="font-weight: bold;">Pune</span></p>
+            </div>
+          </div>
+          <div style="display: flex;justify-content: space-around;">
+            <div>
+              <p>Internship</p>
+            </div>
+            <div>
+              <p>Paid</p>
+            </div>
+            <div>
+              <p>Starts 15th Jun'20</p>
+            </div>
+          </div>
+          <div
+            style="display: flex;justify-content: space-between;margin-bottom: 5px;margin-left: 5px;margin-right: 10px;">
+            <div>
+              <p>Apply by 1st Oct'20</p>
+            </div>
+            <button class="btn btn-primary">Apply Now</button>
+          </div>
+        </div>
+        <!-- division for the internship details ends here -->
+        <!-- pagination div starts here -->
+        <div style="margin-top: 40px;">
+          <div style="padding: 5px 100px;display: flex;justify-content: space-around;">
+            <button class="btn paginationButton">Prev</button>
+            <div style="padding: 10px 5px;">
+              <a href="#" class="paginationNumber">1</a>
+              <a href="#" class="paginationNumber">2</a>
+              <a href="#" class="paginationNumber">3</a>
+              <a href="#" class="paginationNumber">4</a>
+            </div>
+            <button class="btn paginationButton">Next</button>
+          </div>
+        </div>
+        <!-- pagination div ends here -->
+      </div>
+      <!-- middle coloumn ends here -->
+
+      <!-- right coloumn starts here -->
+      <div class="col-lg-3 col-md-2 col-sm-10">
+        <h3 style="color: rgb(8, 8, 109);">LAUNCHPAD</h3>
+        <h6 style="padding-left: 10px;">Internship Program</h6>
+        <div class="col-lg-12 col-md-12 col-sm-12" style="border:1px solid black;border-radius: 5px;">
+          <h6>Resume Builder</h6>
+          <hr>
+          <!-- <div style="width: 15%;height: 15%;background-image: url(img1.png);"></div> -->
+          <img src="img1.png" style="width: 50%;height: 50%;border-radius: 50%;margin-left: 25px;">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt libero </p>
+          <button class="btn btn-primary" style="margin-bottom: 2px;"> Create Now</button>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12" style="border:1px solid black;border-radius: 5px;margin-top: 15px;">
+          <h6>Featured Internships</h6>
+          <hr>
+          <img src="img2.png" style="width: 50%;height: 50%;border-radius: 50%;margin-left: 25px;">
+          <p style="padding-left: 10%;"><span style="font-weight: bold;"> Glomera Private Limited </span><br> Content
+            Manager</p>
+          <p style="margin-top: 5px;">Anywhere in India </p>
+          <div style="display: flex;justify-content: space-between;">
+            <a href="#">Prev</a>
+            <a href="#">Next</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- our main container ends here -->
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
